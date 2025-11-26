@@ -1,35 +1,138 @@
+Here’s the exact CSS you can copy-paste right now to replace your entire current stylesheet.
+Just delete everything in your current style.css (or wherever your CSS lives) and paste this in its place:
+CSS/* ===================================
+   Complete Modern & Professional CSS
+   Copy-paste this to replace your old CSS
+   =================================== */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
 body {
-background: lightslategrey;
-font-family:  "Times New Roman", Times, serif;
+  background: #f8fafc;
+  color: #2d3748;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.7;
+  padding: 2rem 1rem;
+  min-height: 100vh;
 }
+
 h1 {
-color: black;
-text-align: center;
+  font-size: 3rem;
+  text-align: center;
+  margin-bottom: 1rem;
+  color: #1a202c;
+  font-weight: 700;
 }
-.projects { 
-    display:flex; 
-    flex-wrap:wrap; 
-} 
+
+h2 {
+  font-size: 2rem;
+  text-align: center;
+  margin: 3rem 0 2rem;
+  color: #2c3e50;
+}
+
+p {
+  max-width: 800px;
+  margin: 0 auto 1.5rem;
+  text-align: center;
+  font-size: 1.15rem;
+}
+
+/* Center wrapper */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+/* Projects grid – works on desktop + mobile */
+.projects {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 2rem;
+  margin-top: 3rem;
+}
+
 .project {
-width: 30%;
-margin: 10px;
-padding: 20px 10px;
-background: #FFFFF0; 
-border-radius: 25%;
+  background: white;
+  border-radius: 18px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+  text-align: center;
 }
-.project img{
-width: 300px;
-height: 300px;
-margin: 10px;
-border: 2px solid rgb(0, 0, 0);
-display: block;
-margin: auto;
+
+.project:hover {
+  transform: translateY(-12px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
 }
-a { /* change the appearance of ALL links */
-text-decoration: none;
-color: rgb(0, 0, 0);
+
+.project img {
+  width: 100%;
+  height: 240px;
+  object-fit: cover;
+  border-bottom: 5px solid #3498db;
 }
-.project p { /* change the appearance of paragraph tags inside .project divs */
-text-align: center;
-margin: 15px;
+
+.project-content {
+  padding: 1.8rem 1.2rem;
+}
+
+.project h3 {
+  font-size: 1.5rem;
+  margin-bottom: 0.8rem;
+  color: #2d3748;
+}
+
+.project p {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 1.2rem;
+}
+
+/* Links & buttons */
+a {
+  color: #3498db;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.2s;
+}
+
+a:hover {
+  color: #2980b9;
+  text-decoration: underline;
+}
+
+.btn {
+  display: inline-block;
+  background: #3498db;
+  color: white;
+  padding: 0.9rem 2rem;
+  border-radius: 50px;
+  margin: 2.5rem 0.6rem 0;
+  font-weight: 600;
+  font-size: 1.1rem;
+  transition: background 0.3s;
+}
+
+.btn:hover {
+  background: #2980b9;
+  text-decoration: none;
+}
+
+/* Mobile adjustments */
+@media (max-width: 768px) {
+  h1 { font-size: 2.5rem; }
+  h2 { font-size: 1.8rem; }
+  .project img { height: 200px; }
 }
