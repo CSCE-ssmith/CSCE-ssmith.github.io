@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<!-- this HTML content was created by GROK AI -->
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sean Patrick Smith - Resume</title>
+  <style>
+    body {
+      font-family: Calibri, "Helvetica Neue", Arial, sans-serif;
+      font-size: 11pt;
+      line-height: 1.35;
+      color: #000;
+      max-width: 8.5in;
+      margin: 0 auto;
+      padding: 0.5in 0.75in;
+      background: #fff;
+    }
+    h1 {
+      font-size: 28pt;
+      font-weight: bold;
+      text-align: center;
+      margin: 0 0 4pt 0;
+    }
+    .contact {
+      text-align: center;
+      font-size: 11pt;
+      margin-bottom: 8pt;
+      position: relative;
+    }
+    .contact::after {
+      content: "";
+      display: block;
+      width: 300px;
+      margin: 6pt auto 0;
+      border-bottom: 1px dashed #000;
+    }
+    h2 {
+      font-size: 14pt;
+      font-weight: bold;
+      margin: 20pt 0 8pt 0;
+    }
+    .dates {
+      float: right;
+      font-size: 10.5pt;
+      margin-left: 20pt;
+      white-space: nowrap;
+    }
+    .entry {
+      clear: both;
+      margin-bottom: 12pt;
+    }
+    ul {
+      margin: 4pt 0 10pt 0;
+      padding-left: 28pt;
+    }
+    li {
+      margin-bottom: 3pt;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Sean Patrick Smith</h1>
+  <div class="contact">
+    Colombia, SC 29229  |  ssmith04070514@gmail.com
+  </div>
+
+  <h2>Education</h2>
+  <div class="dates">JULY 2023 – PRESENT</div>
+  <div><strong>University of South Carolina (UofSC), Colombia, South Colombia</strong><br>
+  Sophomore Pursuing Bachelors of Science – Computer Information Systems</div>
+  <ul>
+    <li>Invited and accepted into UofSC’s First Generation Summer Start Program alongside receiving a scholarship funded through the College of Engineering and Computing.</li>
+    <li>Learned the basics in Creo design software in an educational setting alongside being enrolled in multiple student organizations such as ASME, CAC, CEC LLC, at UofSC.</li>
+  </ul>
+
+  <div class="dates">AUGUST 2019 – May 2023</div>
+  <div><strong>Woodmont High School, Piedmont, South Carolina</strong><br>
+  Achieved High School Diploma – 4.616 SC Weighted GPA</div>
+  <ul>
+    <li>Introduced to a series of Engineering courses to enhance our engineering knowledge learning AutoCAD, Electrical Wiring, Soldering, Coding and hands-on projects.</li>
+    <li>A member of the National Beta Club which introduced me to community service where I then took up a teacher’s aid spot at the High School.</li>
+  </ul>
+
+  <h2>Technical Skills</h2>
+  <ul>
+    <li><strong>Software:</strong> Creo, AutoCAD, Microsoft Office Suite</li>
+    <li><strong>Engineering & Manufacturing:</strong> CNC operation, electrical wiring, soldering, mechanical assembly</li>
+  </ul>
+
+  <h2>Work Experience</h2>
+  <div class="dates">DECEMBER 2021 – July 2025</div>
+  <div class="entry"><strong>QuikTrip, Greenville, South Carolina</strong></div>
+  <ul>
+    <li>Collaborated with team members to maintain a clean, safe, and efficient work environment.</li>
+    <li>Assisted at other store locations as needed to ensure smooth operations and adequate staffing.</li>
+  </ul>
+
+  <div class="dates">May 2021 – December 2021</div>
+  <div class="entry"><strong>Zaxbys, Greenville, South Carolina</strong></div>
+  <ul>
+    <li>Supported back-of-house operations to ensure smooth, safe, and compliant food preparation.</li>
+    <li>Followed health and safety guidelines to maintain high-quality service during shifts.</li>
+  </ul>
+
+  <h2>Internship Experience</h2>
+  <div class="dates">December 2024 – August 2025</div>
+  <div class="entry"><strong>Steelworks Of The Carolinas, Piedmont, South Carolina</strong></div>
+  <ul>
+    <li>Trained and operated CNC machines, ensuring precision, quality, and efficient production in a fast-paced manufacturing environment.</li>
+  </ul>
+
+</body>
+</html>
